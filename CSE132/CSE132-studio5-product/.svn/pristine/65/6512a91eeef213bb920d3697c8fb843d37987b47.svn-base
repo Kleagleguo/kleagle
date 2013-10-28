@@ -1,0 +1,36 @@
+Studio 5 checkout form, to be completed by the team:
+
+Team members (MUST be completed accurately to get credit):
+
+     Last Name           Last 3 digits of ID
+     
+  1
+  2
+  3
+     
+1) Readers/Writer locks
+
+  a) Under what conditions should a thread be able to obtain 
+      a Readers lock on an object?
+  b) How does your implementation of RWLock enforce those conditions?
+  c) Under what conditions should a thread be able to obtain 
+      a Writer lock on an object?
+  d) How does your implementation of RWLock enforce those conditions?
+  
+2) Application to Account
+  What are the implications of each of the following approaches for withdraw and deposit?
+  	 *   a) A read lock to get the balance and then a write lock to change it?
+	 *   b) A read lock around the whole thing, and in the middle, a write lock to change
+	 *        the balance?
+	 *   c) A writer's lock around the entire transaction?
+  
+
+3) Good mazes and bad mazes
+
+Explain the algorithm your group devised for deciding good vs. bad mazes.
+  a) How do you determine that the maze has the right number of rooms?
+  b) How do you determine that the maze has no cycles?
+
+
+4) Comments about this studio (was it useful, did you learn stuff, was it
+   too easy or hard)?

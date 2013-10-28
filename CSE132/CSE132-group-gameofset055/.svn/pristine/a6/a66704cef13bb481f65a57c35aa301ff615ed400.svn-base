@@ -1,0 +1,24 @@
+package lab5.client;
+
+/**
+ *  Client
+ *   Player program for game of Set.
+ *
+ *   Author: COMPLETE THIS
+ *   Course: CSE 132
+ *   Lab:    4
+ */
+
+public class Client {
+	// Complete the Client class
+
+	/**
+	 * Entry point for lab5 client.
+	 * @param args unused
+	 */
+	public static void main(String[] args) {
+		Client c = new Client();
+		c.run();
+	}
+
+}

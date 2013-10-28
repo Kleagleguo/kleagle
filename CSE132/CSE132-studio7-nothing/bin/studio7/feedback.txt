@@ -1,0 +1,24 @@
+Studio 7 checkout form, to be completed by the team:
+
+Team members (MUST be completed accurately to get credit):
+
+     Last Name           Last 3 digits of ID
+     
+  1Epstein					338
+  2Lazar					279
+  3Guo						413
+  4Bosch					359
+     
+
+1) What display format(s) did you decide to support in ViewInputStream and ViewOutputStream?
+Hex, Decimal, ASCII
+
+2) Describe your revised protocol.
+to add a location, we add the option to send a UTF "newloc" and that will be read by the server, causing the server to read a string 
+from the client(the name of a location to be added), and then the server adds that location to the model. Addperson is similar, but
+it sends the UTF "newper". same goes for Removing("remper ad remloc"), though this will be able to send back "person not even there" 
+it's all just adding the option for a client to send a request to change the model, the server accepting, and then the essential info
+bein exchanged
+
+3) Comments about this studio (will you will use these tools to improve the observability of your sockets code)?
+This was a good studio, showed us how to work with input and outputstreams more visibly. I think it'll be useful for seeing what goes wrong.

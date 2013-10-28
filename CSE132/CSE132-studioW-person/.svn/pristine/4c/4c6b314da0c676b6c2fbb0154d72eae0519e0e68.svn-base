@@ -1,0 +1,19 @@
+package weasley;
+
+import java.beans.PropertyChangeSupport;
+
+public class Person {
+
+	public String name;
+	public Location location1;
+	public PropertyChangeSupport pcs;
+	
+	public Person(String name) {
+		this.name = name;
+	}
+
+	public PropertyChangeSupport getPCS() {
+		return pcs;
+	}
+	
+}

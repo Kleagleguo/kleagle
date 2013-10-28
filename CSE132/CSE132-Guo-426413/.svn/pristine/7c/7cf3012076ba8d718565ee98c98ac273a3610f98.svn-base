@@ -1,0 +1,39 @@
+package lab3a;
+
+/*TA=lukefu
+ * Grade=84
+ * -5 for compute color not ruling out red/green
+ * -1 for TODO tag
+ * -5 for no class headers
+ * -5 for no function headers
+ */
+public class Lab {
+	
+	public static final int DELAY = 500;
+	
+	public static void main(String args[]) {
+		//
+		// Start with 2x2, but after you get things working, go bigger
+		//
+		//Maze m = new Maze(2, 2);
+		Maze m = new Maze(3, 3);
+		m.demo(50);
+
+	}
+	
+	/**
+	 * The sleep that is observed nominally.  Change this to speed things up.
+	 */
+	public static void sleep() {
+		sleep(DELAY);
+	}
+	
+	public static void sleep(int ms) {
+		try {
+			Thread.sleep(ms);
+		}
+		catch (Exception e) {
+			throw new Error("cannot happen " + e);
+		}
+	}
+}

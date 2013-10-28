@@ -1,0 +1,62 @@
+CSE132 Cover Page for Lab 5a
+
+By submitting this assignment, you certify that you have read, 
+understood, and complied with the CSE 132 Collaboration Policy.
+
+Who worked on this lab?
+
+     Last Name           Last 3 Digits of student's ID
+
+1)	 Guo						413
+2)
+3)
+4)
+
+********************************
+* Tell us about your protocol: *
+********************************
+I used the same protocol as the one provided in the instruction page(http://www.cse.wustl.edu/~roger/132/Labs/5a/setprotocol.html).
+
+Besides, I added one message type:
+case 100: - hint message
+- The server tells all the clients that a hint has been given
+
+The server will receive messages sent from the client in the playerHandler class, since it is a multiplayer
+game, each player will be allocated one playerHandler. In the playerHandler, when specific type of message
+is received, the playerHandler will call corresponding method in the GameController.
+
+I made the client a runnable, so in the run() method in the client, I used it to receive messages sent from
+server. When specific type of message is received from the server, the client will call corresponding method
+to control the display of the gui.
+
+********************************************************************************
+* If there is anything else we should know about your work on this assignment, *
+* please explain here:														   *
+********************************************************************************
+
+1.How to start the game: 
+The Game will only start after 3 players have joined the game. 
+Hence to run the game in the local host, just do as follows :)   
+(1) run the GameController(will start the server).
+
+(2) run the Gui(start the client and its interface), after the Gui shows up, click the "start the game"
+button, enter player's name, then you will be waiting for other players to join if there are less than 
+3 players in the game.
+
+(3) repeat step (2) until 3 players join the game and have clicked the start button, then game starts!
+
+2.What will happen during the game:
+There will be two hints given during the game. The hint will simply show one more additional column of 
+cards for players to select. There will be 2 hints in total. 
+
+A hint timer will start working after the game starts, the two hints will both be given after 60 seconds if
+no one has played a set.
+
+3.When will the game ends: 
+(1) There is a timer in the game. After the game starts(i.e., the cards have been dealt on the table),
+the timer will start working, if 10 mins passed, there are still cards in the card deck(i.e, the 3 
+players were to slow to play all the valid sets), the game will be forced to end, and the player with
+the highest score wins the game. 
+
+(2) If there is no cards in the card deck(i.e, there is no more card to deal), the player with the 
+highest score wins the game.

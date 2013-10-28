@@ -1,0 +1,42 @@
+Studio 4 checkout form, to be completed by the team:
+
+Team members (MUST be completed accurately to get credit):
+
+     Last Name           Last 3 digits of ID
+     
+  1 Guo 					413
+  2 Epstein					338
+  3 Lazar 					279
+  4 Flatley					989
+     
+Comments/feedback about this studio.  What design decisions did you make?
+1. Layout
+So there should be a minimum of 12 cards, and there should be room for 9 more. The cards will be displayed
+in 3 card tall columns. The user should be able to select up to three cards at a time, and selecting a card
+should make it look visibly different(perhaps a yellow outline). 
+Initially, there should be a waiting area screen where you determine how many people you'd like to play with
+(from a drop menu with 1-4 being the options), you type a name you'd like into a textfield, and then you push 
+a start button to indicate you're ready to play a game. Pushing the start button makes other buttons 
+unpushable, and the cards will be displayed once the game starts. The start button and drop menu disappear 
+when the game starts. When the game ends, the winner is displayed in a popup(player 1 wins!), and the cards disappear. 
+The original waiting area appears again at the end of the game so that you can join another game.
+2.Client vs Server
+Server- should have a model of a deck of set cards, as well as keep track of which ones are on the table, 
+their positions, and all possible sets on the table(which it'll check as cards are added). IF there are
+no sets, the server will deal three cards. The server should also keep track of the names of the players, and
+their points. It will respond to requests of what cards are on the table, and keep track of players scores. It
+will also respond to requests of "are these three cards a set?", and change players' scores accordingly. Once
+a set has been matched, it is removed from the table and all sets containing those 3 cards are removed from the
+set of sets. Assuming cards left in the deck, card will be added to ensure a minimum of 12 cards on the table,
+and then will be added until at least one set can be formed.
+Client- should have pictures of the set of cards. The client sends the request to start, to get the other players
+names/scores, to get the cards on the table, and to send in a possible set.
+There should be an agreed protocol where, if the client requests the standard things in the run method the server
+can respond to say the game is over and who has won or lost.
+If a server gets an illegal command from the client, it should kick the client from the game. And give them a
+score of -3. It will also change their name to scumbag.\\
+
+3.Protocol
+
+
+

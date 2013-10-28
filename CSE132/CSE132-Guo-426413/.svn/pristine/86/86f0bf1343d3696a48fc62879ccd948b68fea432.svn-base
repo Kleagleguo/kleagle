@@ -1,0 +1,247 @@
+/** 
+ * This class represents graphical user interface
+ * for the client side of Weasley Clock
+ * @author 			Bingkun Guo
+ * Lab Section:		C
+ * Email:			guobingkun@wustl.edu
+ * Lab:				Lab4a: Remote Weasley Display 
+ * File:			Gui.java
+ */
+package lab4.client;
+import java.awt.EventQueue;
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.IOException;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JList;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextField;
+import javax.swing.JTextPane;
+import javax.swing.border.EmptyBorder;
+import lab4.model.Person;
+
+public class Gui extends JFrame {
+	private static final long serialVersionUID = 1L;
+	private JPanel contentPane;
+	private JTextPane personLoc;
+	private JScrollPane personLocScrollPane;
+	private JList people;
+	private JList locations;
+	private Client client;
+	private JButton btnStart;
+	private JButton btnAddNewPerson;
+	private JButton btnAddNewLocation;
+	private boolean started;
+	private final int contentPaneBoarder = 5;
+	private final int guiX = 100;
+	private final int guiY = 100;
+	private final int guiWidth = 716;
+	private final int guiHeight = 346;
+	private final int personLocScrollPaneX = 401;
+	private final int personLocScrollPaneY = 39;
+	private final int personLocScrollPaneWidth = 289;
+	private final int personLocScrollPaneHeight = 258;
+	private final int btnStartX = 27;
+	private final int btnStartY = 11;
+	private final int btnStartWidth = 252;
+	private final int btnStartHeight = 23;
+	private final int peopleScrollPaneX = 27;
+	private final int peopleScrollPaneY = 66;
+	private final int peopleScrollPaneWidth = 132;
+	private final int peopleScrollPaneHeight = 199;
+	private final int locationsScrollPaneX = 222;
+	private final int locationsScrollPaneY = 66;
+	private final int loactionsScrollPaneWidth = 132;
+	private final int locationsScrollPaneHeight = 199;
+	private final int lblPeopleX = 62;
+	private final int lblPeopleY = 45;
+	private final int lblPeopleWidth = 46;
+	private final int lblPeopleHeight = 14;
+	private final int lblLocationsX = 253;
+	private final int lblLocationsY = 45;
+	private final int lblLocationsWidth = 67;
+	private final int lblLocationsHeight = 14;
+	private final int lblPoeplesLocationsX = 491;
+	private final int lblPoeplesLocationsY = 14;
+	private final int lblPoeplesLocationsWidth = 111;
+	private final int lblPoeplesLocationsHeight = 14;
+	private JTextField newPersonName;
+	private JTextField newLocationName;
+	private JButton btnDeletePerson;
+	private JButton btnDeleteLocation;
+	private JTextField delPersonName;
+	private JTextField delLocationName;
+	private JTextField guiConsole;
+	/**
+	 * Launch the application.
+	 * @throws IOException 
+	 */
+	public static void main(String[] args) throws IOException {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					Gui frame = new Gui();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame. See comments for details
+	 */
+	public Gui() {
+		started = false;
+		client = new Client();
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		// Set the bounds of the whole Gui
+		setBounds(guiX, guiY, 768, 482);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(contentPaneBoarder, contentPaneBoarder, contentPaneBoarder, contentPaneBoarder));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+
+		// Create a scrollable JTextPane to display people's locations and set its bounds and font
+		personLocScrollPane = new JScrollPane();
+		personLocScrollPane.setBounds(442, 42, personLocScrollPaneWidth, personLocScrollPaneHeight);
+		contentPane.add(personLocScrollPane);
+		personLoc = new JTextPane();
+		personLoc.setFont(new Font("Tahoma", Font.BOLD, 11));
+		personLoc.setEditable(false);
+		personLocScrollPane.setViewportView(personLoc);
+
+		// Create a start button and set its bounds. This button will start the client.
+		btnStart = new JButton("Start Remote Weasley Display");
+		btnStart.setBounds(btnStartX, btnStartY, btnStartWidth, btnStartHeight);
+		contentPane.add(btnStart);
+
+		// Create a JList which displays all the people and make it scrollable to make the number of people flexible. 
+		JScrollPane peopleScrollPane = new JScrollPane();
+		peopleScrollPane.setBounds(peopleScrollPaneX, peopleScrollPaneY, peopleScrollPaneWidth, peopleScrollPaneHeight);
+		contentPane.add(peopleScrollPane);
+		people = new JList();
+		peopleScrollPane.setViewportView(people);
+
+		// Create a JList which displays all the locations and make it scrollable to make the number of locations flexible.
+		JScrollPane locationsScrollPane = new JScrollPane();
+		locationsScrollPane.setBounds(locationsScrollPaneX, locationsScrollPaneY, loactionsScrollPaneWidth, locationsScrollPaneHeight);
+		contentPane.add(locationsScrollPane);
+		locations = new JList();
+		locationsScrollPane.setViewportView(locations);
+
+		// Create a label for people.
+		JLabel lblPeople = new JLabel("People");
+		lblPeople.setBounds(lblPeopleX, lblPeopleY, lblPeopleWidth, lblPeopleHeight);
+		contentPane.add(lblPeople);
+
+		// Create a label for locations.
+		JLabel lblLocations = new JLabel("Locations");
+		lblLocations.setBounds(lblLocationsX, lblLocationsY, lblLocationsWidth, lblLocationsHeight);
+		contentPane.add(lblLocations);
+
+		// Create a label for people's locations
+		JLabel lblPoeplesLocations = new JLabel("Poeple's locations");
+		lblPoeplesLocations.setBounds(522, 11, lblPoeplesLocationsWidth, lblPoeplesLocationsHeight);
+		contentPane.add(lblPoeplesLocations);
+		
+		newPersonName = new JTextField();
+		newPersonName.setBounds(10, 314, 75, 20);
+		contentPane.add(newPersonName);
+		newPersonName.setColumns(10);
+		
+		btnAddNewPerson = new JButton("Add Person");
+		btnAddNewPerson.setBounds(95, 313, 106, 23);
+		contentPane.add(btnAddNewPerson);
+		
+		btnAddNewLocation = new JButton("Add Location");
+		btnAddNewLocation.setBounds(324, 313, 108, 23);
+		contentPane.add(btnAddNewLocation);
+		
+		newLocationName = new JTextField();
+		newLocationName.setBounds(228, 314, 86, 20);
+		contentPane.add(newLocationName);
+		newLocationName.setColumns(10);
+		
+		btnDeletePerson = new JButton("Delete Person");
+		btnDeletePerson.setBounds(96, 274, 105, 23);
+		contentPane.add(btnDeletePerson);
+		
+		btnDeleteLocation = new JButton("Delete Location");
+		btnDeleteLocation.setBounds(324, 276, 108, 23);
+		contentPane.add(btnDeleteLocation);
+		
+		delPersonName = new JTextField();
+		delPersonName.setBounds(10, 276, 75, 20);
+		contentPane.add(delPersonName);
+		delPersonName.setColumns(10);
+		
+		delLocationName = new JTextField();
+		delLocationName.setBounds(228, 276, 86, 20);
+		contentPane.add(delLocationName);
+		delLocationName.setColumns(10);
+		
+		guiConsole = new JTextField();
+		guiConsole.setFont(new Font("Tahoma", Font.BOLD, 18));
+		guiConsole.setBounds(10, 363, 593, 51);
+		contentPane.add(guiConsole);
+		guiConsole.setColumns(10);
+		
+
+
+		// Implement the action listener for the start button by creating a separated thread which
+		// executes the run method in the client.
+		btnStart.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if (started == false) {
+					started = true;
+					new Thread(new Runnable() {
+						public void run() {
+							personLoc.setText("");
+							client.run(people, locations, personLoc);
+						}
+					}).start();
+				}
+			}
+		});
+		
+		btnAddNewPerson.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				String newPer = newPersonName.getText();
+				newPersonName.setText("");
+				client.runAddPerson(newPer, guiConsole);
+			}
+		});
+		
+		btnAddNewLocation.addActionListener(new ActionListener(){
+			public void actionPerformed(ActionEvent e) {
+				String newLoc = newLocationName.getText();
+				newLocationName.setText("");
+				client.runAddLocation(newLoc, guiConsole);
+			}
+		});
+		
+		btnDeletePerson.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {	
+				String dropPer = delPersonName.getText();
+				delPersonName.setText("");
+				client.runDropPerson(dropPer, guiConsole);
+			}
+		});
+		
+		btnDeleteLocation.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				String dropLoc = delLocationName.getText();
+				delLocationName.setText("");
+				client.runDropLocation(dropLoc, guiConsole);
+			}
+		});
+		
+	}
+}

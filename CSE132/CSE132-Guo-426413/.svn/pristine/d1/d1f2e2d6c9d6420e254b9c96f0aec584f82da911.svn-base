@@ -1,0 +1,36 @@
+package lab3a.model;
+import java.awt.*;
+import javax.swing.*;
+
+import lab3a.Lab;
+import lab3a.locking.SingleLockInvokable;
+
+/**
+ * Represents a horizontal hallway.
+ * This specializes a {@link Hall} in two ways:
+ * <UL>
+ *  <LI> It knows to get the East Lock of Room1 and the West Lock of Room2
+ *  <LI> It knows that when its doors open, it connects the East of Room1
+ *       with Room2, and the West of Room2 with Room1.
+ *  </UL
+ **/
+public class HorizHall extends Hall {
+
+	public HorizHall(Room r1, Room r2) { 
+		super(r1, r2); 
+
+	}
+
+	/** Return Room1's East Lock */
+	public SingleLockInvokable getLock1() { return getRoom1().getEastLock(); }
+	/** Return Room2's West Lock */
+	public SingleLockInvokable getLock2() { return getRoom2().getWestLock(); }
+	/** Connect the East of Room1 with Room2 and the West of Room2 with Room1 */
+	public void openDoors() {
+		// FIXME
+		Lab.sleep();
+	}
+
+
+}
+

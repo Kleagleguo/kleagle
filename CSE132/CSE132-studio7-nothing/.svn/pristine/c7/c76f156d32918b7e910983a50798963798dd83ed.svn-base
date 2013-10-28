@@ -1,0 +1,15 @@
+package studio7.util;
+
+public class ViewOutputStream extends FilterOutputStream {
+
+    public ViewOutputStream(OutputStream out) {
+        // TODO
+
+    }
+
+    public void write(int b) {
+        // TODO
+
+    }
+
+}

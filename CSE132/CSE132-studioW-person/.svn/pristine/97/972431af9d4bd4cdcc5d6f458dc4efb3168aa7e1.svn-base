@@ -1,0 +1,14 @@
+package weasley.view;
+
+import weasley.model.Weasley;
+
+public class Logger {
+	
+	private Weasley weasley;
+	
+	public Logger(Weasley weasley) {
+		this.weasley = weasley;
+	}
+	
+	
+}

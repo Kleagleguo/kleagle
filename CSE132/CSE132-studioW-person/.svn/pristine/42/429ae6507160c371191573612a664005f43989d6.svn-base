@@ -1,0 +1,17 @@
+package weasley;
+
+import java.beans.PropertyChangeSupport;
+import java.util.HashSet;
+import java.util.Set;
+
+public class Location {
+	
+	public String place;
+	public Set<Person> persons = new HashSet<Person>();
+	public PropertyChangeSupport pcs;
+	
+	public Location(String place){
+		this.place=place;
+	}
+
+}

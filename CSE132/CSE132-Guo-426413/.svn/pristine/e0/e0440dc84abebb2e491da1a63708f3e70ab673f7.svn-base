@@ -1,0 +1,122 @@
+package lab4.client;
+
+import java.awt.EventQueue;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextPane;
+import javax.swing.border.EmptyBorder;
+
+import javax.swing.JList;
+import java.awt.Font;
+import javax.swing.JLabel;
+
+public class Gui extends JFrame {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private JPanel contentPane;
+	private JTextPane personLoc;
+	private JScrollPane scrollPane;
+	private JList<Object> people;
+	private JList<Object> locations;
+	private Client c;
+	private JButton btnStart;
+	private ArrayList<String> names;
+	private ArrayList<String> locNames;
+	private Map<String, String> info;
+	/**
+	 * Launch the application.
+	 * @throws IOException 
+	 */
+	public static void main(String[] args) throws IOException {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					Gui frame = new Gui();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public Gui() {
+		names = new ArrayList<String>();
+		locNames = new ArrayList<String>();
+		info = new HashMap<String, String>();
+		c = new Client();
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 716, 346);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+
+		scrollPane = new JScrollPane();
+		scrollPane.setBounds(401, 39, 289, 258);
+		contentPane.add(scrollPane);
+
+		personLoc = new JTextPane();
+		personLoc.setFont(new Font("Tahoma", Font.BOLD, 11));
+		personLoc.setEditable(false);
+		scrollPane.setViewportView(personLoc);
+
+		btnStart = new JButton("Start Remote Weasley Display");
+		btnStart.setBounds(27, 11, 252, 23);
+		contentPane.add(btnStart);
+
+		JScrollPane peopleScrollPane = new JScrollPane();
+		peopleScrollPane.setBounds(27, 66, 132, 199);
+		contentPane.add(peopleScrollPane);
+
+		people = new JList<Object>();
+		peopleScrollPane.setViewportView(people);
+		
+		JScrollPane locationsScrollPane = new JScrollPane();
+		locationsScrollPane.setBounds(222, 66, 132, 199);
+		contentPane.add(locationsScrollPane);
+		
+		locations = new JList<Object>();
+		locationsScrollPane.setViewportView(locations);
+		
+		JLabel lblPeople = new JLabel("People");
+		lblPeople.setBounds(62, 45, 46, 14);
+		contentPane.add(lblPeople);
+		
+		JLabel lblLocations = new JLabel("Locations");
+		lblLocations.setBounds(253, 45, 67, 14);
+		contentPane.add(lblLocations);
+		
+		JLabel lblPoeplesLocations = new JLabel("Poeple's locations");
+		lblPoeplesLocations.setBounds(491, 14, 111, 14);
+		contentPane.add(lblPoeplesLocations);
+
+		btnStart.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				new Thread(new Runnable() {
+					public void run() {
+						personLoc.setText("");
+						names.clear();
+						info.clear();
+						c.run(names, locNames, info, people, locations, personLoc);
+					}
+				}).start();
+			}
+		});
+	}
+}

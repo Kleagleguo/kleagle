@@ -1,0 +1,15 @@
+package weasley;
+
+import weasley.model.Weasley;
+
+public class Bouncer {
+
+	public Bouncer(Weasley model, Location next) {
+		for(Person p: model.getPeople()){
+			p.getPCS();
+			if(p.location1==next)
+				System.out.println("" + p.name + " is moving to " + next.place + "!" );
+		}
+	}
+
+}

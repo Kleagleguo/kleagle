@@ -1,0 +1,131 @@
+package lab3a.model;
+import java.beans.PropertyChangeSupport;
+import java.util.HashSet;
+import java.util.Set;
+
+import lab3a.Lab;
+import lab3a.locking.DoubleLock;
+import lab3a.locking.LockPub;
+import lab3a.locking.SingleLockInvokable;
+
+/** 
+ * This is an abstract class, which means you cannot instantiate it. 
+ * But it has two useful subclasses. Even though this class cannot be 
+ * instantiated, you can still call methods on any Hall, as detailed below. 
+ **/
+abstract public class Hall {
+
+	private PropertyChangeSupport pcs;
+	private Room room1, room2;
+	private boolean open;
+	private Thread thread;
+	private boolean locked = false;
+
+	public Hall(Room r1, Room r2) {
+		pcs = new PropertyChangeSupport(this);
+		this.room1 = r1;
+		this.room2 = r2;
+	}
+
+	abstract public void openDoors();
+
+	public PropertyChangeSupport getPCS() { return pcs; }
+
+	/** Depends on whether we are horiz or vertical hall */
+	abstract public SingleLockInvokable getLock1();
+	/** Depends on whether we are horiz or vertical hall */
+	abstract public SingleLockInvokable getLock2();
+
+	/** Using an anonymous, inner class, spawn a new Thread that
+	 * gets a {@link DoubleLock} on this hall's two rooms, and then
+	 * calls openDoors (overridden in subclasses)
+	 */
+	public void attemptToConnectRooms() {
+		thread = new Thread() {	
+			boolean loopAgain = true;
+			public void run() {
+				while (loopAgain) {
+					DoubleLock dl = new DoubleLock(getLock1(), getLock2());
+					dl.lockInvoke(
+							new Runnable() {
+								public void run() {
+									// TODO: We should be more selective in when we connect rooms
+									//
+									// Change the sets so we can see the visualization respond to that
+									// TODO: This all has to be changed to make the lab really work
+									//
+									// Do not be tempted to reuse either room's set for this union!
+									// Make sure to create a new set, as you see below, add to that set,
+									//   and then make that new set every room's set (last loop, below)
+									//
+									final Set<Room> s1 = getRoom1().getSet();
+									final Set<Room> s2 = getRoom2().getSet(); 
+									LockPub set1 = new LockPub(getRoom1().getSet(), "");
+									LockPub set2 = new LockPub(getRoom2().getSet(), "");
+									DoubleLock d2 = new DoubleLock(set1, set2);
+									d2.lockInvoke(new Runnable() {
+										public void run() {
+											if (s1 != getRoom1().getSet() || s2 != getRoom2().getSet()) {
+												System.out.println("changed!!!!!!!!!!!!!!!!!!!!!");
+											}
+											else {
+												loopAgain = false;
+												if (getRoom1().getSet() != getRoom2().getSet()) {
+													Set<Room> union = new HashSet<Room>();
+													synchronized (union) {
+														for (Room r : getRoom1().getSet()) {
+															union.add(r);
+														}
+														for (Room r : getRoom2().getSet()) {
+															union.add(r);
+														}
+														for (Room r : union) {
+															r.setSet(union);
+														}
+														openDoors();
+														Lab.sleep();
+													}
+												}
+											}
+										}
+									});				
+								}
+								//}
+							}
+							);
+				}
+			}
+
+		};
+		thread.start();
+		//thread.run();
+	}
+
+	public void newThread() {
+		thread = new Thread();
+	}
+
+	public Thread getThread() { return thread; } // FIX
+
+	public String toString() {
+		return("Hall between " + getRoom1() + " and " + getRoom2());
+	}
+
+	/** Returns the first room specified in the constructor call. **/
+	public Room getRoom1() {
+		return room1;
+	}
+	/** Returns the second room specified in the constructor call. **/
+	public Room getRoom2() {
+		return room2;
+	}
+
+	public void openHall() {
+		open = true;
+	}
+
+	public boolean isOpen() {
+		return open;
+	}
+
+}

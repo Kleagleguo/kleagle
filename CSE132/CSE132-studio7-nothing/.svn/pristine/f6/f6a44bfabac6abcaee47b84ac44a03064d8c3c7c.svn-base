@@ -1,0 +1,15 @@
+package studio7.util;
+
+public class ViewInputStream extends FilterInputStream {
+
+    public ViewInputStream(InputStream in) {
+        // TODO
+
+    }
+
+    public int read() {
+        // TODO
+
+    }
+
+}

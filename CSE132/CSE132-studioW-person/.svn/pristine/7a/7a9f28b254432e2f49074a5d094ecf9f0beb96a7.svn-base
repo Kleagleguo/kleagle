@@ -1,0 +1,26 @@
+package weasley;
+
+import java.util.ArrayList;
+
+import weasley.model.Weasley;
+
+public class Logger {
+
+	public Logger(Weasley model) {
+		ArrayList<Location> newLoc = new ArrayList<Location>();
+		for(Person p: model.getPeople()){
+			newLoc.add(p.location1);
+		}
+		while(true){
+			int n=0;
+			for(Person p: model.getPeople()){
+				if(p.location1!=newLoc.get(n)){
+					System.out.println("" + p.name + " has moved to " + p.location1.place + "!" );	
+				}
+				n++;
+			}
+		}
+	}
+
+
+}

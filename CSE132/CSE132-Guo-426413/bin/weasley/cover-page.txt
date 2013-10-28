@@ -1,0 +1,28 @@
+CSE132 Cover Page for Lab W
+
+By submitting this assignment, you certify that you have read, 
+understood, and complied with the CSE 132 Collaboration Policy.
+
+Who worked on this lab?
+On my own
+
+     Last Name           Last 3 Digits of student's ID
+
+1)	 Guo				 413
+2)
+3)
+
+Security Issues Comments:
+1. I can create a password to authenticate the sender of the request
+
+2. I can create a list which contains the name of the requestors that 
+are allowed to know my information or allowed to set the location.
+
+3. Yes, I think it would be safer to have each model be Person-specific.
+Because if we store all the person information in one model, once security
+is broken, all the information could be lost.
+
+
+
+
+ 

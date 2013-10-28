@@ -1,0 +1,19 @@
+Studio 4 checkout form, to be completed by the team:
+
+Team members (MUST be completed accurately to get credit):
+
+     Last Name           Last 3 digits of ID
+     
+  1 Epstein					031
+  2 Sekiguchi				535
+  3 Guo						413
+     
+How did you solve the Double Lock problem?
+	We made sure the locks were ordered so that the philosophers would
+	always try for the same chopstick first.
+
+Any ideas about the Multiple Lock puzzler?
+	No.
+
+Comments/feedback about this studio
+the puzzler puzzled us

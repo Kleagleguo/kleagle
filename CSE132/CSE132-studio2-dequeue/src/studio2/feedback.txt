@@ -1,0 +1,34 @@
+Studio 2 checkout form, to be completed by the team:
+
+1) Team members (MUST be completed accurately to get credit):
+
+     Last Name           Last 3 digits of ID
+     
+  1	 Guo				 413
+  2
+  3
+     
+2) Answers to Dumpster questions
+
+   1.  What is the numeric value of a lower-case a?  97
+   2.  What is the numeric value of the character(s) that separate lines?  10
+   3.  What is the numeric value of the character(s) in front of the word <EM>fun</EM>? 32
+       What does that value mean?  space
+ 
+
+3) Answers to questions at the end of the studio:
+
+   1.   Modify run() so it writes the byte 132 instead of 32. 
+        What does your Dumpster show and why?  -124, because the 1st digit indicates whether it is a negative number
+
+   2. Try writing 132 using writeInt. What do you see and why?
+	  0 0 0 -124, because int is 4 bytes
+
+   3. Try writing the boolean values true and false. What do you see?
+	  true: 1, false: 0
+
+   4. If time permits, try writing other things and seeing how they look. 
+      What did you try and what did you see?
+
+4) Comments/feedback about this studio:
+   Learned a lot in the studio, nice TA

@@ -1,0 +1,61 @@
+package weasley.model;
+
+import java.beans.PropertyChangeSupport;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
+public class Weasley {
+	
+	private PropertyChangeSupport pcs;
+	private Map<Person, Location> weasley;
+	private Set<Person> people;
+	private Set<Location> places;
+
+	public Weasley() {
+		weasley = new HashMap<Person, Location>();
+		people = new HashSet<Person>();
+		places = new HashSet<Location>();
+		pcs = new PropertyChangeSupport(this);
+	}
+	
+	public void addPerson(Person person) {
+		people.add(person);
+	}
+	
+	public void addLocation(Location location) {
+		places.add(location);
+	}
+	
+	public Set<Person> getPeople() {
+		return people;
+	}
+	
+	public Set<Location> getLocations() {
+		return places;
+	}
+	
+	public Location getLocation(Person person) {
+		return weasley.get(person);
+	}
+	
+	public void setLocation(Person person, Location location) {
+		pcs.firePropertyChange(person.getName(), weasley.get(person), location);
+		weasley.put(person, location);
+	}
+	
+	public void dropPerson(Person p) {
+		
+	}
+	
+	public void dropLocation(Location location) {
+		
+	}
+	
+	public PropertyChangeSupport getPcs() {
+		return pcs;
+	}
+	
+	
+}

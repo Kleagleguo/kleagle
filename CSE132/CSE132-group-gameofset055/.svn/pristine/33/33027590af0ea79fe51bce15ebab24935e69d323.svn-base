@@ -1,0 +1,33 @@
+package lab5;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+
+import lab5.model.SetGame;
+import lab5.view.PlayerHandler;
+
+public class Server implements Runnable {
+	GameController game;
+	ServerSocket ss;
+
+	public Server(GameController game) {
+		this.game = game;
+		try {
+			ss = new ServerSocket(1050);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	public void run() {
+		while (true) {
+			try {
+				new Thread(new PlayerHandler(game, ss.accept())).start();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
+}

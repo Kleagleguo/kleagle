@@ -1,0 +1,15 @@
+package weasley;
+
+import weasley.model.Weasley;
+
+public class Stalker {
+
+	public Stalker(Weasley model, Person next) {
+		for(Person p: model.getPeople()){
+			p.getPCS();
+			if(p.name==next.name)
+				System.out.println("" + p.name + " is moving to " + next.location1 + "!" );
+		}
+	}
+
+}

@@ -1,0 +1,42 @@
+package lab5.view;
+
+import java.io.DataInputStream;
+import java.io.IOException;
+
+public class SetMsgInputStream {
+	
+	private DataInputStream dis;
+	
+	public SetMsgInputStream(DataInputStream dis) {
+		this.dis = dis;
+	}
+	
+	
+	public byte readByte() {
+		try {
+			return dis.readByte();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return -1;
+	}
+	
+	public String readUTF() {
+		try {
+			return dis.readUTF();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+	
+	public short readShort() {
+		try {
+			return dis.readShort();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return -1;
+	}
+	
+}

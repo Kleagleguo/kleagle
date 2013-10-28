@@ -1,0 +1,33 @@
+package lab3a.model;
+import java.awt.*;
+import javax.swing.*;
+
+import lab3a.Lab;
+import lab3a.locking.SingleLockInvokable;
+
+/**
+ * Represents a vertical hallway. 
+ * This specializes a {@link Hall} in two ways:
+ * <UL>
+ *  <LI> It knows to get the South Lock of Room1 and the North Lock of Room2
+ *  <LI> It knows that when its doors open, it connects the South of Room1
+ *       with Room2, and the North of Room2 with Room1.
+ *  </UL
+ **/
+public class VertHall extends Hall {
+   public VertHall(Room r1, Room r2) { 
+     super(r1, r2);
+   }
+
+  /** Get Room1's South Lock */
+  public SingleLockInvokable getLock1() { return getRoom1().getSouthLock(); }
+  /** Get Room2's North Lock */
+  public SingleLockInvokable getLock2() { return getRoom2().getNorthLock(); }
+  
+  /** Connect the South of Room1 with Room2, and the North of Room2 with Room1 */
+  public void openDoors() {
+	  // FIXME
+	  Lab.sleep();
+  }
+ 
+}

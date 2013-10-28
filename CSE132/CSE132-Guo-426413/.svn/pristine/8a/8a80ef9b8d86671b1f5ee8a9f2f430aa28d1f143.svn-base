@@ -1,0 +1,104 @@
+package lab4.client;
+
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.net.Socket;
+import java.net.UnknownHostException;
+import java.util.ArrayList;
+import java.util.Map;
+
+import javax.swing.JList;
+import javax.swing.JTextPane;
+
+/**
+ *  Client
+ *   Remote network view for a Weasley Clock.
+ *
+ *  Author: COMPLETE THIS
+ *  Course: CS132
+ *  Lab:    4
+ *  
+ */
+
+public class Client {
+	// Complete the Client class
+	Socket client;
+	DataInputStream dis;
+	DataOutputStream dos;
+	//ArrayList<String> names;
+	public Client() {
+		try {
+			client = new Socket("localhost", 10400);
+			dis = new DataInputStream(client.getInputStream());
+			dos = new DataOutputStream(client.getOutputStream());
+			//names = new ArrayList<String>();
+		} catch (UnknownHostException e) {
+			System.out.println("Don't know this host");
+			e.printStackTrace();
+		} catch (IOException e) {
+			System.out.println("can not get io connection");
+			e.printStackTrace();
+		}
+	}
+
+	public void run(ArrayList<String> names, ArrayList<String> locNames, Map<String, String> info, JList<Object> people, JList<Object> locations, JTextPane textPane) {
+
+		try {
+			int size;
+			String reply;
+			dos.writeUTF("people");
+			size = dis.readInt();
+			names.clear();
+			for (int i = 0; i < size; i++) {
+				reply = dis.readUTF();
+				names.add(reply);
+			}
+			people.setListData(names.toArray());
+			
+			dos.writeUTF("locations");
+			size = dis.readInt();
+			locNames.clear();
+			for (int i = 0; i < size; i++) {
+				reply = dis.readUTF();
+				locNames.add(reply);
+			}
+			locations.setListData(locNames.toArray());
+			
+			String peopleLoc = "";
+			while (true) {
+				info.clear();
+				textPane.setText("");
+				peopleLoc = "";
+				for (String name : names) {
+					String query = "query " + name;
+					dos.writeUTF(query);
+					size = dis.readInt();
+					reply = dis.readUTF();
+					info.put(name, reply);
+					peopleLoc += name + " is at " + info.get(name) + "\n";
+				}
+				textPane.setText(peopleLoc);
+				Thread.sleep(1000);
+			}
+
+		} catch (IOException e) {
+			e.printStackTrace();
+		} 
+		catch (InterruptedException e) {
+			e.printStackTrace();
+		} 
+
+	}
+
+
+	/**
+	 * Entry point for lab4 client.
+	 * @param args unused
+	 */
+	public static void main(String[] args) {
+		Client c = new Client();
+		//c.run();
+	}
+
+}

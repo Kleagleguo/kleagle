@@ -1,0 +1,27 @@
+package studio9;
+
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class Server extends Thread {
+
+	private int port;
+	private GameController game;
+	
+	public Server(int port, GameController g) {
+		this.port = port;
+		this.game = g;
+
+	}
+
+	public void run() {
+		game.message("Server started at port " + port);
+		try {
+			// FIXME  replace the line below per instructions
+			System.out.println("Server not completed yet--see instructions");
+		} catch(Throwable t) {
+			throw new Error("Bad server: " + t);
+		}
+	}
+
+}

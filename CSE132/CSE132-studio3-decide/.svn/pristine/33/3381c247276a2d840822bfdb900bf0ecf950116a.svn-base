@@ -1,0 +1,38 @@
+Studio 3 checkout form, to be completed by the team:
+
+Team members (MUST be completed accurately to get credit):
+
+     Last Name           Last 3 digits of ID
+     
+  1	Philps					789	
+  2 Guo						413
+  3	Christopherson			021
+     
+Point 6.  What does "final" mean and why do you have to use it for local 
+     variables that are referenced by inner classes? Final means the variable cannot be changed.
+     It is used by the inner classes because since multiple threads are running simultaneously the
+     variables within must not be altered.  
+
+Point 10. What is the difference between ".run()" and ".start()"
+.run() just runs the method on the main thread, whereas .start() runs the .run() method on a newly invoked thread.
+
+Points 12 and 13. 
+   How did your application behave when you introduced ".start()" for the
+   transactions?  How did its running time change?  How did its output change?
+   Initially, when .start() was introduced the final total balance did not match the initial total. The runtime was faster.
+   The output changed to have a different total balance among all accounts. 
+
+Point 15.  What happens when you made all the methods synchronized?  Why did you
+   see that behavior? It deadlocked because two synchronized methods were being called within another synchronized method. 
+
+   What happens when you make only the "transfer" method synchronized?
+   Someone Madeoff with some money. This does not specify that the withdraw and deposit methods are synchronized,
+   and therefore money was lost. 
+
+   Which methods should be synchronized, and why?
+   withdraw() and deposit() should be synchronized so that for each withdraw there is a deposit into 
+   another (or the same) account. We do not want the withdraw and deposit methods to overlap.
+   This is important so that the final total balance is equal to the initial total.
+
+
+Comments/feedback about this studio

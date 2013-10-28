@@ -1,0 +1,17 @@
+Studio 6 checkout form, to be completed by the team:
+
+Team members (MUST be completed accurately to get credit):
+
+     Last Name           Last 3 digits of ID
+     
+  1 Wilson					994
+  2 Sturm                   710
+  3 Guo						413
+     
+
+1) What did you learn in this studio (be brief, but let me know):
+  encrypt information, send messages to other client
+
+2) How did the receiving team break the encryption used in
+   this studio?
+ we didn't finish that part

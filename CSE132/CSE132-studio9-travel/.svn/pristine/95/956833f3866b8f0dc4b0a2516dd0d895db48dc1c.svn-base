@@ -1,0 +1,33 @@
+package studio9;
+
+import javax.swing.JOptionPane;
+
+public class ConsoleHandler extends Thread {
+
+	private GameController game;
+
+	public ConsoleHandler(GameController g) {
+		this.game = g;
+	}
+
+	public void run() {
+		while (true) {
+			String s = JOptionPane.showInputDialog("Message?");
+			game.message("From console: " + s);
+			
+			if (s.equals("players"))
+				game.showPlayers();
+			
+			if (s.equals("spawn")) {
+				String name = JOptionPane.showInputDialog("Player name?");
+				new SimClient("localhost", 3989, name).start();
+			}
+			
+			if (s.equals("kill")) {
+				String id = JOptionPane.showInputDialog("Which player?");
+				int n = Integer.parseInt(id);
+				game.killPlayer(n);
+			}
+		}
+	}
+}

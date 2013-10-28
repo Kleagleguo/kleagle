@@ -1,0 +1,55 @@
+package weasley.model;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import weasley.Location;
+import weasley.Person;
+
+public class Weasley {
+	
+	public Set<Person> people = new HashSet<Person>();
+	public Set<Location> locations = new HashSet<Location>();
+
+	public void addPerson(Person person) {
+		people.add(person);
+		
+	}
+
+	public void addLocation(Location location) {
+		locations.add(location);
+	}
+
+	public Set<Person> getPeople() {
+		return people;
+	}
+
+	public Set<Location> getLocations() {
+		return locations;
+	}
+
+
+	public Location getLocation(Person p) {
+		return p.location1;
+	}
+	
+	public void setLocation(Person person, Location location) {
+		if (people.contains(person)) {
+			person.location1 = location;
+		}
+		else{
+			person.location1 = location;
+			people.add(person);
+		}
+	}
+
+	public void dropPerson(Person p) {
+		people.remove(p);
+	}
+
+	public void dropLocation(Location l) {
+		locations.remove(l);
+	}
+
+
+}
