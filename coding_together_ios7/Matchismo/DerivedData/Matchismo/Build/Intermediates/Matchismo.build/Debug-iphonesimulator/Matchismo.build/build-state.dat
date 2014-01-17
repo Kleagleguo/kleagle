@@ -1,0 +1,1091 @@
+TMatchismo
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/PrecompiledHeaders/Matchismo-Prefix-byycblejhpyautecajyuskpxehut/Matchismo-Prefix.pch.pch Matchismo/Matchismo-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/PlayingCard.o /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCard.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/Deck.o /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Deck.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/MatchismoAppDelegate.o /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/MatchismoViewController.o /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/PlayingCardDeck.o /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCardDeck.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/main.o /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/Card.o /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Card.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/Matchismo normal x86_64
+cCopyStringsFile /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/en.lproj/InfoPlist.strings Matchismo/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Base.lproj/Main.storyboard
+cCompileAssetCatalog /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Images.xcassets
+cProcessInfoPlistFile /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/Info.plist /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Matchismo-Info.plist
+cGenerateDSYMFile /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app.dSYM /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/Matchismo
+cTouch /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c000000005282AAFE0000000000000176
+t1384295166
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c000000005245AD9600000000000003B5
+t1380298134
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000526805E300000000000001A0
+t1382548963
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c00000000526805E500000000005838D0
+t1382548965
+s5781712
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c00000000526805E500000000005B82A0
+t1382548965
+s5997216
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000526805E50000000000445870
+t1382548965
+s4479088
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+c00000000526805E50000000000355050
+t1382548965
+s3493968
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+c00000000526805E600000000002F6810
+t1382548966
+s3106832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000526805E5000000000004B000
+t1382548965
+s307200
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000526805E6000000000088C680
+t1382548966
+s8963712
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c00000000526805E60000000000037620
+t1382548966
+s226848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000526805E700000000004848F0
+t1382548967
+s4737264
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Security.framework/Security
+c00000000526805E700000000001290B0
+t1382548967
+s1216688
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000526805EA0000000001DB9910
+t1382548970
+s31168784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c00000000526805EC00000000002B9F20
+t1382548972
+s2858784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.o
+c000000005245ADB60000000000002338
+t1380298166
+s9016
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
+c00000000526805EE000000000008D300
+t1382548974
+s578304
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
+c000000005245ADB7000000000038ACB0
+t1380298167
+s3714224
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
+c0000000052684D9A00000000000141F0
+t1382567322
+s82416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
+c000000005245B1540000000000013500
+t1380299092
+s79104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+c000000005245B1550000000000033BA0
+t1380299093
+s211872
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+c000000005245B155000000000001CFB0
+t1380299093
+s118704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcopyfile_sim.dylib
+c000000005245B155000000000001B2B0
+t1380299093
+s111280
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdispatch.dylib
+c00000000526805EE00000000000632B0
+t1382548974
+s406192
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdyld_sim.dylib
+c000000005245B1550000000000008880
+t1380299093
+s34944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libmacho_sim.dylib
+c00000000526805EE0000000000015080
+t1382548974
+s86144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libnotify_sim.dylib
+c000000005245B15600000000000230E0
+t1380299094
+s143584
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libremovefile_sim.dylib
+c000000005245B155000000000000E380
+t1380299093
+s58240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_network.dylib
+c000000005245B1560000000000087200
+t1380299094
+s553472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
+c000000005245B15600000000000171A0
+t1380299094
+s94624
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+c000000005245B1560000000000039C10
+t1380299094
+s236560
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+c000000005245B156000000000000B0B0
+t1380299094
+s45232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_c.dylib
+c000000005245B1560000000000167FE0
+t1380299094
+s1474528
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+c00000000526805EE00000000000106A0
+t1382548974
+s67232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+c00000000526805EE000000000001CE40
+t1382548974
+s118336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_info.dylib
+c000000005245B1560000000000071040
+t1380299094
+s462912
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_m.dylib
+c00000000526805EE0000000000067A10
+t1382548974
+s424464
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libunwind_sim.dylib
+c000000005245B156000000000001BAD0
+t1380299094
+s113360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libxpc.dylib
+c00000000526805EE0000000000088BA0
+t1382548974
+s560032
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
+c000000005245B16D0000000000000AC9
+t1380299117
+s2761
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+c00000000526806310000000000005004
+t1382549041
+s20484
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/Card.o
+t1389851258
+s10552
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/Deck.o
+t1389854009
+s10216
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/Matchismo.LinkFileList
+c0000000052D778C600000000000004B8
+t1389852870
+s1208
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/MatchismoAppDelegate.o
+t1389851258
+s65620
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/MatchismoViewController.o
+t1389851258
+s41172
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/PlayingCard.o
+t1389854009
+s13588
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/PlayingCardDeck.o
+t1389854009
+s8024
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/main.o
+t1389851258
+s3672
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/Card.o
+t1389854086
+s12208
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/Deck.o
+t1389855306
+s11620
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/Matchismo.LinkFileList
+c0000000052D77D8400000000000004C6
+t1389854084
+s1222
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/MatchismoAppDelegate.o
+t1389854086
+s71860
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/MatchismoViewController.o
+t1389855547
+s56760
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/PlayingCard.o
+t1389854086
+s15340
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/PlayingCardDeck.o
+t1389854086
+s8644
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/main.o
+t1389854086
+s3908
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/assetcatalog_dependencies.txt
+t1389854011
+s457
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/assetcatalog_generated_info.plist
+t1389854011
+s525
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/PrecompiledHeaders/Matchismo-Prefix-bwzlnonzxukchrfrdvuwvmyisfil/Matchismo-Prefix.pch.pch
+t1389851258
+s108344
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/PrecompiledHeaders/Matchismo-Prefix-byycblejhpyautecajyuskpxehut/Matchismo-Prefix.pch.pch
+t1389854086
+s109064
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app
+t1389855547
+s306
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app.dSYM
+t1389855308
+s102
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/Base.lproj/Main.storyboardc
+t1389855547
+s170
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/Info.plist
+t1389854011
+s1052
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/Matchismo
+t1389855547
+s42616
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/PkgInfo
+t1389854011
+s8
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/en.lproj/InfoPlist.strings
+t1389851259
+s42
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Base.lproj/Main.storyboard
+c0000000052D7833B0000000000001094
+t1389855547
+s4244
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Images.xcassets
+c0000000052D77C6D00000000000000CC
+t1389853805
+s204
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Matchismo-Info.plist
+c0000000052D76BCC00000000000004EA
+t1389849548
+s1258
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Matchismo-Prefix.pch
+c0000000052D76BCD0000000000000158
+t1389849549
+s344
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoAppDelegate.h
+c0000000052D76BCD0000000000000128
+t1389849549
+s296
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoAppDelegate.m
+c0000000052D76BCD00000000000007F3
+t1389849549
+s2035
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoViewController.h
+c0000000052D76BCD00000000000000EA
+t1389849549
+s234
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoViewController.m
+c0000000052D7833800000000000005E5
+t1389855544
+s1509
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Card.h
+c0000000052D76D70000000000000018C
+t1389849968
+s396
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Card.m
+c0000000052D76DBD0000000000000188
+t1389850045
+s392
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Deck.h
+c0000000052D779AA0000000000000141
+t1389853098
+s321
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Deck.m
+c0000000052D781620000000000000387
+t1389855074
+s903
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCard.h
+c0000000052D778C60000000000000146
+t1389852870
+s326
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCard.m
+c0000000052D779B500000000000003B8
+t1389853109
+s952
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCardDeck.h
+c0000000052D7740F00000000000000C7
+t1389851663
+s199
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCardDeck.m
+c0000000052D779C30000000000000296
+t1389853123
+s662
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/en.lproj/InfoPlist.strings
+c0000000052D76BCC000000000000002D
+t1389849548
+s45
+
+N/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/main.m
+c0000000052D76BCD0000000000000164
+t1389849549
+s356
+
+N/usr/lib/libSystem.B.dylib
+c0000000052684D84000000000000E6D0
+t1382567300
+s59088
+
+N/usr/lib/system/libcache.dylib
+c0000000052684D9A0000000000012A00
+t1382567322
+s76288
+
+N/usr/lib/system/libcommonCrypto.dylib
+c0000000052684D75000000000002E320
+t1382567285
+s189216
+
+N/usr/lib/system/libcompiler_rt.dylib
+c0000000052684D840000000000021860
+t1382567300
+s137312
+
+N/usr/lib/system/libcopyfile.dylib
+c0000000052684D98000000000001B620
+t1382567320
+s112160
+
+N/usr/lib/system/libcorecrypto.dylib
+c0000000052684D9800000000000BD920
+t1382567320
+s776480
+
+N/usr/lib/system/libdyld.dylib
+c0000000052684D9A00000000000141F0
+t1382567322
+s82416
+
+N/usr/lib/system/libkeymgr.dylib
+c0000000052684D99000000000000A120
+t1382567321
+s41248
+
+N/usr/lib/system/liblaunch.dylib
+c0000000052684D99000000000001D550
+t1382567321
+s120144
+
+N/usr/lib/system/libmacho.dylib
+c0000000052684D980000000000014EE0
+t1382567320
+s85728
+
+N/usr/lib/system/libquarantine.dylib
+c0000000052684D9C0000000000010380
+t1382567324
+s66432
+
+N/usr/lib/system/libremovefile.dylib
+c0000000052684D9C000000000000C4C0
+t1382567324
+s50368
+
+N/usr/lib/system/libsystem_asl.dylib
+c0000000052684D9900000000000357A0
+t1382567321
+s219040
+
+N/usr/lib/system/libsystem_blocks.dylib
+c0000000052684D9A000000000000C070
+t1382567322
+s49264
+
+N/usr/lib/system/libsystem_c.dylib
+c0000000052684D840000000000168C00
+t1382567300
+s1477632
+
+N/usr/lib/system/libsystem_configuration.dylib
+c0000000052684D980000000000010630
+t1382567320
+s67120
+
+N/usr/lib/system/libsystem_dnssd.dylib
+c0000000052684D9B000000000001DF10
+t1382567323
+s122640
+
+N/usr/lib/system/libsystem_info.dylib
+c0000000052684D840000000000075B00
+t1382567300
+s482048
+
+N/usr/lib/system/libsystem_kernel.dylib
+c0000000052684D84000000000007CC70
+t1382567300
+s511088
+
+N/usr/lib/system/libsystem_m.dylib
+c0000000052684D8400000000000766C0
+t1382567300
+s485056
+
+N/usr/lib/system/libsystem_malloc.dylib
+c0000000052684D9A0000000000044DC0
+t1382567322
+s282048
+
+N/usr/lib/system/libsystem_notify.dylib
+c0000000052684D840000000000021FA0
+t1382567300
+s139168
+
+N/usr/lib/system/libsystem_platform.dylib
+c0000000052684D9A000000000002D900
+t1382567322
+s186624
+
+N/usr/lib/system/libsystem_pthread.dylib
+c0000000052684D9A000000000001E570
+t1382567322
+s124272
+
+N/usr/lib/system/libsystem_sandbox.dylib
+c0000000052684D8F000000000000CC70
+t1382567311
+s52336
+
+N/usr/lib/system/libsystem_stats.dylib
+c0000000052684D9200000000000099B0
+t1382567314
+s39344
+
+N/usr/lib/system/libunc.dylib
+c0000000052684D93000000000000C3F0
+t1382567315
+s50160
+
+N/usr/lib/system/libunwind.dylib
+c0000000052684D9A00000000000199F0
+t1382567322
+s104944
+
+CBuild AST from /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoAppDelegate.m
+r0
+
+CBuild AST from /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoViewController.m
+r0
+
+CBuild AST from /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Card.m
+r0
+
+CBuild AST from /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Deck.m
+r0
+
+CBuild AST from /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCard.m
+r0
+
+CBuild AST from /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCardDeck.m
+r0
+
+CBuild AST from /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies7c2a17bbba87b841^d97917bbba87b841^---0#1#1#--18"Check dependencies36"26FCEBF2-9997-41CB-AD73-3E0B28CAEAC1-
+
+CCompileAssetCatalog /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Images.xcassets
+s411546809.887821
+e411546811.015180
+r1
+xCompileAssetCatalog
+x/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app
+x/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/LaunchImage-700-568h@2x.png
+o/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/Assets.car
+o/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"CompileAssetCatalog DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app Matchismo/Images.xcassets118"CompileAssetCatalog DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app Matchismo/Images.xcassetsb058e3b9b487b841^26e403bbb487b841^-485"/* com.apple.actool.compilation-results *//Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/LaunchImage-700-568h@2x.png/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/Assets.car/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@75"file:///Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Images.xcassets/0000000000000000^1257"CompileAssetCatalog DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app Matchismo/Images.xcassets    cd /Users/guobingkun/Desktop/Xcode/Matchismo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.0 --target-device iphone --compress-pngs --compile /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Images.xcassets36"1C30A35D-2919-4968-B541-A2242F561B8C-
+b8612D7A2-C3CC-4027-986C-F2FE68B73CAB
+
+CCompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/Card.o /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Card.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s411544058.430537
+e411544058.468186
+r1
+xCompileC
+xDerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/Card.o
+x/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Card.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Card.m
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Card.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Card.m222"CompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/Card.o Matchismo/Model/Card.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler8b4e6efaa987b841^a1db77faa987b841^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Card.m0000000000000000^3998"CompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/Card.o Matchismo/Model/Card.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/guobingkun/Desktop/Xcode/Matchismo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-generated-files.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-own-target-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-all-target-headers.hmap -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-project-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources/i386 -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources -F/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator -include /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/PrecompiledHeaders/Matchismo-Prefix-bwzlnonzxukchrfrdvuwvmyisfil/Matchismo-Prefix.pch -MMD -MT dependencies -MF /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/Card.d --serialize-diagnostics /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/Card.dia -c /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Card.m -o /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/Card.o36"35566E93-44D5-4672-8C36-F655F39A390B-
+bFB7E0488-237F-4978-B6CB-4EAEE8243E8B
+
+CCompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/Deck.o /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Deck.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s411546809.795936
+e411546809.855267
+r1
+xCompileC
+xDerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/Deck.o
+x/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Deck.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Deck.m
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Deck.h
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Card.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Deck.m222"CompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/Deck.o Matchismo/Model/Deck.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera7e9cbb9b487b841^2ffadab9b487b841^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Deck.m0000000000000000^3998"CompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/Deck.o Matchismo/Model/Deck.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/guobingkun/Desktop/Xcode/Matchismo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-generated-files.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-own-target-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-all-target-headers.hmap -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-project-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources/i386 -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources -F/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator -include /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/PrecompiledHeaders/Matchismo-Prefix-bwzlnonzxukchrfrdvuwvmyisfil/Matchismo-Prefix.pch -MMD -MT dependencies -MF /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/Deck.d --serialize-diagnostics /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/Deck.dia -c /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Deck.m -o /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/Deck.o36"F81A82DE-A56C-4B48-BA4C-C722D34B2321-
+b8612D7A2-C3CC-4027-986C-F2FE68B73CAB
+
+CCompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/MatchismoAppDelegate.o /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s411544058.385666
+e411544058.465432
+r1
+xCompileC
+xDerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/MatchismoAppDelegate.o
+x/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoAppDelegate.m
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoAppDelegate.m248"CompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/MatchismoAppDelegate.o Matchismo/MatchismoAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler41f262faa987b841^c02677faa987b841^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoAppDelegate.m0000000000000000^4082"CompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/MatchismoAppDelegate.o Matchismo/MatchismoAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/guobingkun/Desktop/Xcode/Matchismo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-generated-files.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-own-target-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-all-target-headers.hmap -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-project-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources/i386 -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources -F/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator -include /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/PrecompiledHeaders/Matchismo-Prefix-bwzlnonzxukchrfrdvuwvmyisfil/Matchismo-Prefix.pch -MMD -MT dependencies -MF /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/MatchismoAppDelegate.d --serialize-diagnostics /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/MatchismoAppDelegate.dia -c /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoAppDelegate.m -o /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/MatchismoAppDelegate.o36"EE925E54-FCE4-472F-BB93-B2B57DA768C7-
+bFB7E0488-237F-4978-B6CB-4EAEE8243E8B
+
+CCompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/MatchismoViewController.o /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s411544058.386609
+e411544058.456123
+r1
+xCompileC
+xDerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/MatchismoViewController.o
+x/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoViewController.m
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoViewController.m254"CompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/MatchismoViewController.o Matchismo/MatchismoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler901263faa987b841^cec474faa987b841^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoViewController.m0000000000000000^4100"CompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/MatchismoViewController.o Matchismo/MatchismoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/guobingkun/Desktop/Xcode/Matchismo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-generated-files.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-own-target-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-all-target-headers.hmap -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-project-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources/i386 -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources -F/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator -include /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/PrecompiledHeaders/Matchismo-Prefix-bwzlnonzxukchrfrdvuwvmyisfil/Matchismo-Prefix.pch -MMD -MT dependencies -MF /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/MatchismoViewController.d --serialize-diagnostics /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/MatchismoViewController.dia -c /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoViewController.m -o /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/MatchismoViewController.o36"1AC26EBE-C99E-4104-8B83-165E96BE6129-
+bFB7E0488-237F-4978-B6CB-4EAEE8243E8B
+
+CCompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/PlayingCard.o /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCard.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s411546809.795768
+e411546809.855250
+r1
+xCompileC
+xDerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/PlayingCard.o
+x/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCard.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCard.m
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCard.h
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Card.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCard.m236"CompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/PlayingCard.o Matchismo/Model/PlayingCard.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler6bd4cbb9b487b841^edf1dab9b487b841^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCard.m0000000000000000^4040"CompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/PlayingCard.o Matchismo/Model/PlayingCard.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/guobingkun/Desktop/Xcode/Matchismo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-generated-files.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-own-target-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-all-target-headers.hmap -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-project-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources/i386 -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources -F/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator -include /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/PrecompiledHeaders/Matchismo-Prefix-bwzlnonzxukchrfrdvuwvmyisfil/Matchismo-Prefix.pch -MMD -MT dependencies -MF /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/PlayingCard.d --serialize-diagnostics /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/PlayingCard.dia -c /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCard.m -o /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/PlayingCard.o36"15368611-55AF-472C-A588-0DC7B5AEBD6D-
+b8612D7A2-C3CC-4027-986C-F2FE68B73CAB
+
+CCompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/PlayingCardDeck.o /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCardDeck.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s411546809.797419
+e411546809.853542
+r1
+xCompileC
+xDerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/PlayingCardDeck.o
+x/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCardDeck.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCardDeck.m
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCardDeck.h
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Deck.h
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Card.h
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCard.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCardDeck.m244"CompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/PlayingCardDeck.o Matchismo/Model/PlayingCardDeck.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler2e3bccb9b487b841^0a83dab9b487b841^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCardDeck.m0000000000000000^4064"CompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/PlayingCardDeck.o Matchismo/Model/PlayingCardDeck.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/guobingkun/Desktop/Xcode/Matchismo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-generated-files.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-own-target-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-all-target-headers.hmap -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-project-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources/i386 -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources -F/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator -include /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/PrecompiledHeaders/Matchismo-Prefix-bwzlnonzxukchrfrdvuwvmyisfil/Matchismo-Prefix.pch -MMD -MT dependencies -MF /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/PlayingCardDeck.d --serialize-diagnostics /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/PlayingCardDeck.dia -c /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCardDeck.m -o /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/PlayingCardDeck.o36"003EBFA3-6640-437C-B4B6-B628BF3D124E-
+b8612D7A2-C3CC-4027-986C-F2FE68B73CAB
+
+CCompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/main.o /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s411544058.430313
+e411544058.465439
+r1
+xCompileC
+xDerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/main.o
+x/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/main.m
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/main.m216"CompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/main.o Matchismo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerc74c6efaa987b841^522c77faa987b841^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/main.m0000000000000000^3986"CompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/main.o Matchismo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/guobingkun/Desktop/Xcode/Matchismo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-generated-files.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-own-target-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-all-target-headers.hmap -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-project-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources/i386 -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources -F/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator -include /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/PrecompiledHeaders/Matchismo-Prefix-bwzlnonzxukchrfrdvuwvmyisfil/Matchismo-Prefix.pch -MMD -MT dependencies -MF /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/main.dia -c /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/main.m -o /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/main.o36"C6BA1090-8C59-4A27-8C35-290C5A3A5308-
+bFB7E0488-237F-4978-B6CB-4EAEE8243E8B
+
+CCompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/Card.o /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Card.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s411546886.387913
+e411546886.422626
+r1
+xCompileC
+xDerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/Card.o
+x/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Card.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Card.m
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Card.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Card.m226"CompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/Card.o Matchismo/Model/Card.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilera06b6306b587b841^12326c06b587b841^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Card.m0000000000000000^4012"CompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/Card.o Matchismo/Model/Card.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/guobingkun/Desktop/Xcode/Matchismo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-generated-files.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-own-target-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-all-target-headers.hmap -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-project-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources/x86_64 -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources -F/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator -include /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/PrecompiledHeaders/Matchismo-Prefix-byycblejhpyautecajyuskpxehut/Matchismo-Prefix.pch -MMD -MT dependencies -MF /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/Card.d --serialize-diagnostics /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/Card.dia -c /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Card.m -o /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/Card.o36"8B2CF7B4-1FAF-4050-9B13-4226418B083A-
+b6FA0E9A4-3E4C-41AE-BB64-A0C327A2549E
+
+CCompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/Deck.o /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Deck.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s411548106.412184
+e411548106.444746
+r1
+xCompileC
+xDerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/Deck.o
+x/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Deck.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Deck.m
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Deck.h
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Card.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Deck.m226"CompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/Deck.o Matchismo/Model/Deck.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilercdac69cab987b841^34db71cab987b841^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Deck.m0000000000000000^4012"CompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/Deck.o Matchismo/Model/Deck.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/guobingkun/Desktop/Xcode/Matchismo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-generated-files.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-own-target-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-all-target-headers.hmap -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-project-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources/x86_64 -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources -F/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator -include /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/PrecompiledHeaders/Matchismo-Prefix-byycblejhpyautecajyuskpxehut/Matchismo-Prefix.pch -MMD -MT dependencies -MF /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/Deck.d --serialize-diagnostics /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/Deck.dia -c /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Deck.m -o /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/Deck.o36"4E489979-D169-45FF-8EAA-A71715F90474-
+bDF32A0FE-D16C-4D34-8D34-1ABA8F083E3E
+
+CCompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/MatchismoAppDelegate.o /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s411546886.318281
+e411546886.401144
+r1
+xCompileC
+xDerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/MatchismoAppDelegate.o
+x/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoAppDelegate.m
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoAppDelegate.m252"CompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/MatchismoAppDelegate.o Matchismo/MatchismoAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler069c5106b587b841^c4b16606b587b841^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoAppDelegate.m0000000000000000^4096"CompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/MatchismoAppDelegate.o Matchismo/MatchismoAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/guobingkun/Desktop/Xcode/Matchismo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-generated-files.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-own-target-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-all-target-headers.hmap -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-project-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources/x86_64 -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources -F/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator -include /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/PrecompiledHeaders/Matchismo-Prefix-byycblejhpyautecajyuskpxehut/Matchismo-Prefix.pch -MMD -MT dependencies -MF /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/MatchismoAppDelegate.d --serialize-diagnostics /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/MatchismoAppDelegate.dia -c /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoAppDelegate.m -o /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/MatchismoAppDelegate.o36"17C0EB81-C1CB-4F54-AECC-D6FB94EF096E-
+b6FA0E9A4-3E4C-41AE-BB64-A0C327A2549E
+
+CCompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/MatchismoViewController.o /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s411548347.092105
+e411548347.147627
+r1
+xCompileC
+xDerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/MatchismoViewController.o
+x/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoViewController.m
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoViewController.h
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Deck.h
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Card.h
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCardDeck.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoViewController.m258"CompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/MatchismoViewController.o Matchismo/MatchismoViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilera3ac17bbba87b841^25cb25bbba87b841^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoViewController.m0000000000000000^4114"CompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/MatchismoViewController.o Matchismo/MatchismoViewController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/guobingkun/Desktop/Xcode/Matchismo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-generated-files.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-own-target-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-all-target-headers.hmap -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-project-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources/x86_64 -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources -F/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator -include /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/PrecompiledHeaders/Matchismo-Prefix-byycblejhpyautecajyuskpxehut/Matchismo-Prefix.pch -MMD -MT dependencies -MF /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/MatchismoViewController.d --serialize-diagnostics /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/MatchismoViewController.dia -c /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoViewController.m -o /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/MatchismoViewController.o36"173526B3-5B31-4B76-B18F-5AFD94DD8A19-
+bB74B4FE7-6DEF-457E-8F78-0EB946392005
+
+CCompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/PlayingCard.o /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCard.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s411546886.317796
+e411546886.365824
+r1
+xCompileC
+xDerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/PlayingCard.o
+x/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCard.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCard.m
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCard.h
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Card.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCard.m240"CompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/PlayingCard.o Matchismo/Model/PlayingCard.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler656f5106b587b841^d7a65d06b587b841^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCard.m0000000000000000^4054"CompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/PlayingCard.o Matchismo/Model/PlayingCard.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/guobingkun/Desktop/Xcode/Matchismo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-generated-files.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-own-target-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-all-target-headers.hmap -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-project-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources/x86_64 -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources -F/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator -include /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/PrecompiledHeaders/Matchismo-Prefix-byycblejhpyautecajyuskpxehut/Matchismo-Prefix.pch -MMD -MT dependencies -MF /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/PlayingCard.d --serialize-diagnostics /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/PlayingCard.dia -c /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCard.m -o /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/PlayingCard.o36"67C189BD-F1AF-4D3E-994C-563656B9BC9E-
+b6FA0E9A4-3E4C-41AE-BB64-A0C327A2549E
+
+CCompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/PlayingCardDeck.o /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCardDeck.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s411546886.363882
+e411546886.404813
+r1
+xCompileC
+xDerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/PlayingCardDeck.o
+x/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCardDeck.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCardDeck.m
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCardDeck.h
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Deck.h
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/Card.h
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCard.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCardDeck.m248"CompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/PlayingCardDeck.o Matchismo/Model/PlayingCardDeck.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler255b5d06b587b841^66a36706b587b841^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCardDeck.m0000000000000000^4078"CompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/PlayingCardDeck.o Matchismo/Model/PlayingCardDeck.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/guobingkun/Desktop/Xcode/Matchismo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-generated-files.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-own-target-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-all-target-headers.hmap -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-project-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources/x86_64 -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources -F/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator -include /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/PrecompiledHeaders/Matchismo-Prefix-byycblejhpyautecajyuskpxehut/Matchismo-Prefix.pch -MMD -MT dependencies -MF /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/PlayingCardDeck.d --serialize-diagnostics /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/PlayingCardDeck.dia -c /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Model/PlayingCardDeck.m -o /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/PlayingCardDeck.o36"7386E333-A841-4B6B-AD5B-0CAEF1314A93-
+b6FA0E9A4-3E4C-41AE-BB64-A0C327A2549E
+
+CCompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/main.o /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s411546886.366242
+e411546886.402486
+r1
+xCompileC
+xDerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/main.o
+x/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/main.m
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/MatchismoAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/main.m220"CompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/main.o Matchismo/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilercede5d06b587b841^c8096706b587b841^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/main.m0000000000000000^4000"CompileC DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/main.o Matchismo/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/guobingkun/Desktop/Xcode/Matchismo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-generated-files.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-own-target-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-all-target-headers.hmap -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-project-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources/x86_64 -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources -F/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator -include /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/PrecompiledHeaders/Matchismo-Prefix-byycblejhpyautecajyuskpxehut/Matchismo-Prefix.pch -MMD -MT dependencies -MF /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/main.dia -c /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/main.m -o /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/main.o36"51C4DA68-D925-4B77-9072-BDF970D04DAE-
+b6FA0E9A4-3E4C-41AE-BB64-A0C327A2549E
+
+CCompileStoryboard /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Base.lproj/Main.storyboard
+s411548347.176845
+e411548347.256819
+r1
+xCompileStoryboard
+x/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Base.lproj/Main.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"CompileStoryboard Matchismo/Base.lproj/Main.storyboard54"CompileStoryboard Matchismo/Base.lproj/Main.storyboard79572dbbba87b841^397d41bbba87b841^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Base.lproj/Main.storyboard0000000000000000^876"CompileStoryboard Matchismo/Base.lproj/Main.storyboard    cd /Users/guobingkun/Desktop/Xcode/Matchismo    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/Base.lproj/Main.storyboardc /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Base.lproj/Main.storyboard36"429CE4F8-00F1-4FDC-A361-E1E0C45AFC9A-
+bB74B4FE7-6DEF-457E-8F78-0EB946392005
+
+CCopyStringsFile /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/en.lproj/InfoPlist.strings Matchismo/en.lproj/InfoPlist.strings
+s411544059.161261
+e411544059.162819
+r1
+xCopyStringsFile
+x/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/en.lproj/InfoPlist.strings
+xMatchismo/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy Matchismo/en.lproj/InfoPlist.strings152"CopyStringsFile DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/en.lproj/InfoPlist.strings Matchismo/en.lproj/InfoPlist.strings306429fba987b841^29af29fba987b841^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/en.lproj/InfoPlist.strings0000000000000000^651"CopyStringsFile DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/en.lproj/InfoPlist.strings Matchismo/en.lproj/InfoPlist.strings    cd /Users/guobingkun/Desktop/Xcode/Matchismo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/en.lproj -- Matchismo/en.lproj/InfoPlist.strings36"119A2512-9279-4D80-B726-F51CA7521741-
+bFB7E0488-237F-4978-B6CB-4EAEE8243E8B
+
+CGenerateDSYMFile /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app.dSYM /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/Matchismo
+s411548347.257414
+e411548347.287367
+r1
+xGenerateDSYMFile
+x/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app.dSYM
+x/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/Matchismo
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Generate /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app.dSYM177"GenerateDSYMFile DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app.dSYM DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/Matchismo56f241bbba87b841^9b9149bbba87b841^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app.dSYM/0000000000000000^770"GenerateDSYMFile DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app.dSYM DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/Matchismo    cd /Users/guobingkun/Desktop/Xcode/Matchismo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/Matchismo -o /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app.dSYM36"FE1BFAEA-96F5-4FB9-8A7A-AE7C888F4BEF-
+bB74B4FE7-6DEF-457E-8F78-0EB946392005
+
+CLd /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/Matchismo normal i386
+s411546809.857073
+e411546809.886310
+r1
+xLd
+x/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/Matchismo
+xnormal
+xi386
+d/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/Matchismo.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.o
+d/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/PlayingCard.o
+d/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/Deck.o
+d/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/MatchismoAppDelegate.o
+d/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/MatchismoViewController.o
+d/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/PlayingCardDeck.o
+d/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/main.o
+d/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/Card.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Link /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/Matchismo97"Ld DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/Matchismo normal i3868176dbb9b487b841^64e6e2b9b487b841^---0#0#1#--1559"Ld DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/Matchismo normal i386    cd /Users/guobingkun/Desktop/Xcode/Matchismo    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator -F/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator -filelist /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/Matchismo.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/i386/Matchismo_dependency_info.dat -o /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/Matchismo36"2FBB4229-5CAE-416F-B0A5-3247972888C7-
+b8612D7A2-C3CC-4027-986C-F2FE68B73CAB
+
+CLd /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/Matchismo normal x86_64
+s411548347.149444
+e411548347.176069
+r1
+xLd
+x/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/Matchismo
+xnormal
+xx86_64
+d/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/Matchismo.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.o
+d/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/PlayingCard.o
+d/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/Deck.o
+d/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/MatchismoAppDelegate.o
+d/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/MatchismoViewController.o
+d/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/PlayingCardDeck.o
+d/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/main.o
+d/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/Card.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libsystem_stats.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Link /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/Matchismo99"Ld DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/Matchismo normal x86_64554f26bbba87b841^4d142dbbba87b841^---0#0#1#--1567"Ld DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/Matchismo normal x86_64    cd /Users/guobingkun/Desktop/Xcode/Matchismo    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator -F/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator -filelist /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/Matchismo.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Objects-normal/x86_64/Matchismo_dependency_info.dat -o /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/Matchismo36"43C3DE1E-695D-4B48-890A-2F4E46DBF3D6-
+bB74B4FE7-6DEF-457E-8F78-0EB946392005
+
+CProcessInfoPlistFile /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/Info.plist /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Matchismo-Info.plist
+s411546811.130879
+e411546811.132244
+r1
+xProcessInfoPlistFile
+x/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/Info.plist
+x/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Matchismo-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Process /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Matchismo-Info.plist135"ProcessInfoPlistFile DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/Info.plist Matchismo/Matchismo-Info.plistc18c21bbb487b841^34db21bbb487b841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Matchismo-Info.plist0000000000000000^1003"ProcessInfoPlistFile DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/Info.plist Matchismo/Matchismo-Info.plist    cd /Users/guobingkun/Desktop/Xcode/Matchismo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Matchismo-Info.plist -genpkginfo /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/assetcatalog_generated_info.plist -o /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app/Info.plist36"41837271-5C12-4894-9B3C-17ACB12C26C5-
+b8612D7A2-C3CC-4027-986C-F2FE68B73CAB
+
+CProcessPCH /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/PrecompiledHeaders/Matchismo-Prefix-bwzlnonzxukchrfrdvuwvmyisfil/Matchismo-Prefix.pch.pch Matchismo/Matchismo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s411544057.486809
+e411544058.384197
+r1
+xProcessPCH
+x/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/PrecompiledHeaders/Matchismo-Prefix-bwzlnonzxukchrfrdvuwvmyisfil/Matchismo-Prefix.pch.pch
+xMatchismo/Matchismo-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Matchismo-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile Matchismo/Matchismo-Prefix.pch241"ProcessPCH DerivedData/Matchismo/Build/Intermediates/PrecompiledHeaders/Matchismo-Prefix-bwzlnonzxukchrfrdvuwvmyisfil/Matchismo-Prefix.pch.pch Matchismo/Matchismo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerabb17cf9a987b841^185d62faa987b841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Matchismo-Prefix.pch0000000000000000^3876"ProcessPCH DerivedData/Matchismo/Build/Intermediates/PrecompiledHeaders/Matchismo-Prefix-bwzlnonzxukchrfrdvuwvmyisfil/Matchismo-Prefix.pch.pch Matchismo/Matchismo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/guobingkun/Desktop/Xcode/Matchismo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-generated-files.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-own-target-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-all-target-headers.hmap -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-project-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources/i386 -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources -F/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/PrecompiledHeaders/Matchismo-Prefix-bwzlnonzxukchrfrdvuwvmyisfil/Matchismo-Prefix.pch.dia -MMD -MT dependencies -MF /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/PrecompiledHeaders/Matchismo-Prefix-bwzlnonzxukchrfrdvuwvmyisfil/Matchismo-Prefix.pch.d -c /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Matchismo-Prefix.pch -o /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/PrecompiledHeaders/Matchismo-Prefix-bwzlnonzxukchrfrdvuwvmyisfil/Matchismo-Prefix.pch.pch36"2E66ACAF-FAA0-4A7F-93A6-EB14C359C103-
+bFB7E0488-237F-4978-B6CB-4EAEE8243E8B
+
+CProcessPCH /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/PrecompiledHeaders/Matchismo-Prefix-byycblejhpyautecajyuskpxehut/Matchismo-Prefix.pch.pch Matchismo/Matchismo-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s411546884.874395
+e411546886.317146
+r1
+xProcessPCH
+x/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/PrecompiledHeaders/Matchismo-Prefix-byycblejhpyautecajyuskpxehut/Matchismo-Prefix.pch.pch
+xMatchismo/Matchismo-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Matchismo-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile Matchismo/Matchismo-Prefix.pch243"ProcessPCH DerivedData/Matchismo/Build/Intermediates/PrecompiledHeaders/Matchismo-Prefix-byycblejhpyautecajyuskpxehut/Matchismo-Prefix.pch.pch Matchismo/Matchismo-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerb3eadf04b587b841^d3335106b587b841^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Matchismo-Prefix.pch0000000000000000^3882"ProcessPCH DerivedData/Matchismo/Build/Intermediates/PrecompiledHeaders/Matchismo-Prefix-byycblejhpyautecajyuskpxehut/Matchismo-Prefix.pch.pch Matchismo/Matchismo-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/guobingkun/Desktop/Xcode/Matchismo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-generated-files.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-own-target-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-all-target-headers.hmap -iquote /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/Matchismo-project-headers.hmap -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources/x86_64 -I/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/Matchismo.build/Debug-iphonesimulator/Matchismo.build/DerivedSources -F/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/PrecompiledHeaders/Matchismo-Prefix-byycblejhpyautecajyuskpxehut/Matchismo-Prefix.pch.dia -MMD -MT dependencies -MF /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/PrecompiledHeaders/Matchismo-Prefix-byycblejhpyautecajyuskpxehut/Matchismo-Prefix.pch.d -c /Users/guobingkun/Desktop/Xcode/Matchismo/Matchismo/Matchismo-Prefix.pch -o /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Intermediates/PrecompiledHeaders/Matchismo-Prefix-byycblejhpyautecajyuskpxehut/Matchismo-Prefix.pch.pch36"16B26FDC-3A48-428C-8E6B-773858CFADFF-
+b6FA0E9A4-3E4C-41AE-BB64-A0C327A2549E
+
+CProcessPCH /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Index/PrecompiledHeaders/Matchismo-Prefix-awumdcxtfgsfizbryaulhqjlvwzc_ast/Matchismo-Prefix.pch.pch Matchismo/Matchismo-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Index/PrecompiledHeaders/Matchismo-Prefix-gvyzhhjbsoorapcsjlwpcybbsdgf_ast/Matchismo-Prefix.pch.pch Matchismo/Matchismo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app
+s411548268.300378
+e411548268.304303
+r1
+xTouch
+x/Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Touch /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app78"Touch DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app2cf14c6cba87b841^08e94d6cba87b841^---0#0#1#--460"Touch DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app    cd /Users/guobingkun/Desktop/Xcode/Matchismo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/guobingkun/Desktop/Xcode/Matchismo/DerivedData/Matchismo/Build/Products/Debug-iphonesimulator/Matchismo.app36"6EE23B2A-1518-4EA2-BEEA-483B33AD2DE8-
+b552571FE-E047-4BBC-95FA-3809DA8F3A88
+
