@@ -1,0 +1,14 @@
+set FOODS := B P S C;
+
+param protein_content := B 25 P 9 S 20 C 2;
+param fat_content := B 42 P 9 S 37 C 2;
+param carb_content := B 57 P 26 S 88 C 25;
+param cal_content := B 700 P 210 S 780 C 160;
+param sodium_content := B 1500 P 600 S 1060 C 180;
+param price := B 7 P 4 S 6 C 2;
+
+param protein_min := 58;
+param fat_max := 65;
+param carb_max := 200;
+param cal_max := 2000;
+param cost_max := 30;

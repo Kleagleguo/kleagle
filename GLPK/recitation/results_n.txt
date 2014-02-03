@@ -1,0 +1,48 @@
+Problem:    rec1_n
+Rows:       6
+Columns:    4
+Non-zeros:  24
+Status:     OPTIMAL
+Objective:  sodium_intake = 3754.117647 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 sodium_intake
+                    B        3754.12                             
+     2 protein_constraint
+                    NL            58            58                     82.7451 
+     3 fat_constraint
+                    NU            65                          65      -16.0784 
+     4 carb_constraint
+                    B            180                         200 
+     5 cal_constraint
+                    B        1482.35                        2000 
+     6 cost_constraint
+                    B        24.5882                          30 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 quantity[B]  NL             0             0                     106.667 
+     2 quantity[P]  B        5.52941             0               
+     3 quantity[S]  B       0.411765             0               
+     4 quantity[C]  NL             0             0                     46.6667 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 4.55e-13 on column 3
+        max.rel.err = 1.37e-16 on column 3
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
