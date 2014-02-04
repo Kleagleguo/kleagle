@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "E:/workspace_cse260/studio1/testTop_isim_beh.exe" -prj "E:/workspace_cse260/studio1/testTop_beh.prj" "work.testTop" 

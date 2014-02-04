@@ -1,0 +1,3 @@
+vhdl isim_temp "commonDefs.vhd"
+vhdl isim_temp "calculator.vhd"
+vhdl isim_temp "testCalculator.vhd"
