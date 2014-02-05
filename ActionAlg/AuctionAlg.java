@@ -9,6 +9,11 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+* 
+* Author: Bingkun Guo
+*/
+
 public class AuctionAlg {
 	
 	public static ArrayList<ArrayList<Integer>> values;
