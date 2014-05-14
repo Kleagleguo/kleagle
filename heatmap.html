@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Heatmaps</title>
+    <style>
+      html, body, #map-canvas {
+        height: 100%;
+        margin: 0px;
+        padding: 0px
+      }
+      #panel {
+        position: absolute;
+        top: 5px;
+        left: 50%;
+        margin-left: -180px;
+        z-index: 5;
+        background-color: #fff;
+        padding: 5px;
+        border: 1px solid #999;
+      }
+    </style>
+    <script src="jquery-1.11.1.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=visualization">
+    </script>
+    <script src="spin.js"></script>
+    <script>
+// Adding 500 Data Points
+var map, heatmap;
+var taxiData = [];
+var markers = [];
+var markersOnScreen = [];
+var infowindow;
+
+function initialize() {
+  $("#Toggle_Heatmap").hide();
+  $("#Change_gradient").hide();
+  $("#Change_radius").hide();
+  $("#Change_opacity").hide();
+
+  var fileInput = document.getElementById('fileInput');
+
+  var opts = {
+    lines: 13, // The number of lines to draw
+    length: 20, // The length of each line
+    width: 11, // The line thickness
+    radius: 40, // The radius of the inner circle
+    corners: 1, // Corner roundness (0..1)
+    rotate: 0, // The rotation offset
+    direction: 1, // 1: clockwise, -1: counterclockwise
+    color: '#000', // #rgb or #rrggbb or array of colors
+    speed: 1, // Rounds per second
+    trail: 76, // Afterglow percentage
+    shadow: false, // Whether to render a shadow
+    hwaccel: false, // Whether to use hardware acceleration
+    className: 'spinner', // The CSS class to assign to the spinner
+    zIndex: 2e9, // The z-index (defaults to 2000000000)
+    top: '50%', // Top position relative to parent
+    left: '50%' // Left position relative to parent
+  };
+  var target = document.getElementById('map-canvas');
+
+  fileInput.addEventListener('change', function(e) {
+    var file = fileInput.files[0];
+    var textType = /text.*/;
+    if (file.type.match(textType)) {
+      var reader = new FileReader();
+      var spinner = new Spinner(opts).spin(target);
+      reader.onload = function(e) {
+        var lines = reader.result.split(/\r\n|\r|\n/g);
+        console.log(lines.length);
+        for (var i = 1; i < lines.length; i++) {
+          var chunks = lines[i].split(",");
+          var lat = parseFloat(chunks[0]);
+          var lng = parseFloat(chunks[1]);
+          var weight = 5;
+          var upc = chunks.length == 3 ? chunks[2] : "null";
+          // if (upc.length == 11) {
+          //   upc = "0".concat(upc);
+          // } else if (upc.length != 12 && upc != "null") {
+          //   console.log(upc);
+          // }
+          if (upc != "null") {
+            while (upc.length != 12) {
+              upc = "0".concat(upc);
+            }                        
+          }
+          var dataPoint = {};
+          dataPoint.location = new google.maps.LatLng(lat, lng);
+          dataPoint.weight = weight;
+          dataPoint.upc = upc;
+          taxiData.push(dataPoint);
+        }
+
+        var pointArray = new google.maps.MVCArray(taxiData);
+
+        if (heatmap) {
+          console.log("heatmap exists");
+          heapmap.data = pointArray;
+        } else {
+          heatmap = new google.maps.visualization.HeatmapLayer({
+            data: pointArray
+          });
+          heatmap.set('maxIntensity', 100);          
+        }
+
+        heatmap.setMap(map);
+        if (!infowindow) {
+          infowindow = new google.maps.InfoWindow({ content: "holding..."});          
+        }
+        for (var i = 0; i < taxiData.length; i++) {
+          var marker = new google.maps.Marker({
+            position: taxiData[i].location,
+            upc: taxiData[i].upc
+          });
+          if (taxiData[i].upc == "null") {
+            console.log("null record");
+            marker.title = '<b>Location:' + taxiData[i].location.toString() + '<br />UPC: null</b>';
+          } else {
+            marker.title = 
+            '<div id="bodyContent">'+
+            '<b>Location: ' + taxiData[i].location.toString() + '<br />' 
+            + 'UPC: ' + taxiData[i].upc.toString() + '<br />' 
+            + 'Product info:<br> <a href="http://www.upcindex.com/' 
+            + taxiData[i].upc.toString() + '" target="_blank">'+ 'Lookup at UPCindex.com</a> '+ '</b>'
+            + '</div>'
+          }
+          google.maps.event.addListener(marker, 'click', function() {
+            // if (this.upc != "null") {
+            //   console.log("upc = " + upc);
+            //   var oldContent = this.title;
+            //   var oldThis = this;
+            //   var upcToLookup = this.upc;
+            //   var upcAPI = "http://api.v3.factual.com/t/products-cpg?KEY=KxiKwJ838dLMw72yEQGejX9ycbk5bkxa4Pq3d5RI"
+            //   console.log("query upc:" + upcToLookup);
+            //   $.getJSON( upcAPI, {
+            //     q: upcToLookup
+            //   }).done(function( data ) {
+            //       console.log("got reply");
+            //       var items = data.response.data;
+            //       var reply = null;
+            //       console.log(items.length + " items found");
+            //       if (items.length == 0) {
+            //         reply = 'Fractual: no records found<br>';
+            //       } else {
+            //         console.log(items[0].image_urls[1]);
+            //         reply = ('<b>Fractual: <br>' +
+            //             'Brand: ' + items[0].brand + "<br>" +
+            //             'Category: ' + items[0].category + "</b><br>" +
+            //             '<img src="' + items[0].image_urls[1] + 
+            //             '" alt="failed to load the image" width="120" height="120">');
+            //       }
+            //       infowindow.content = oldContent.concat(reply);
+            //       console.log("set content");
+            //       infowindow.open(map,oldThis);
+            //     });
+            // } else {
+            //   console.log("upc is null");
+            //   infowindow.setContent(this.title);
+            //   infowindow.open(map, this);               
+            // }
+            infowindow.setContent(this.title);
+            infowindow.open(map, this); 
+          });
+          markers.push(marker);
+        }
+
+        markersOnScreen = [];
+        google.maps.event.addListener(map, 'zoom_changed', function() {
+          if (heatmap.map != null) {
+            if (map.zoom >= 15) {
+              //console.log("size of marker: " + markers.length + "\n size of markers on Screen" + markersOnScreen.length);
+              //console.log("size of pointArray:" + pointArray.length);
+              for (var i = 0; i < markers.length; i++) {
+                if (map.getBounds().contains(markers[i].position)) {
+                  markers[i].setMap(map);
+                  markersOnScreen.push(markers[i]);
+                }
+              }
+            } else {
+              //console.log("size of marker: " + markers.length + "\n size of markers on Screen" + markersOnScreen.length);
+              //console.log("size of pointArray:" + pointArray.length);
+              for (var i = 0; i < markersOnScreen.length; i++) {
+                markersOnScreen[i].setMap(null);
+              }
+              markersOnScreen.length = 0;
+            }
+          }
+        });
+        spinner.stop();
+        $("#fileInput").hide();
+        $("#selectFile").hide();
+        $("#Toggle_Heatmap").show();
+        $("#Change_gradient").show();
+        $("#Change_radius").show();
+        $("#Change_opacity").show();
+      }
+      // --- end of onload event handller --- 
+      reader.readAsText(file);  
+    } else {
+      alert("file not supported!");
+    }
+  });
+
+  var mapOptions = {
+    zoom: 4,
+    center: new google.maps.LatLng(37.774546, -122.433523),
+    mapTypeId: google.maps.MapTypeId.SATELLITE
+  };
+
+  map = new google.maps.Map(document.getElementById('map-canvas'),
+      mapOptions);
+}
+
+function toggleHeatmap() {
+  heatmap.setMap(heatmap.getMap() ? null : map);
+}
+
+function changeGradient() {
+  var gradient = [
+    'rgba(0, 255, 255, 0)',
+    'rgba(0, 255, 255, 1)',
+    'rgba(0, 191, 255, 1)',
+    'rgba(0, 127, 255, 1)',
+    'rgba(0, 63, 255, 1)',
+    'rgba(0, 0, 255, 1)',
+    'rgba(0, 0, 223, 1)',
+    'rgba(0, 0, 191, 1)',
+    'rgba(0, 0, 159, 1)',
+    'rgba(0, 0, 127, 1)',
+    'rgba(63, 0, 91, 1)',
+    'rgba(127, 0, 63, 1)',
+    'rgba(191, 0, 31, 1)',
+    'rgba(255, 0, 0, 1)'
+  ]
+  heatmap.set('gradient', heatmap.get('gradient') ? null : gradient);
+}
+
+function changeRadius() {
+  heatmap.set('radius', heatmap.get('radius') ? null : 20);
+}
+
+function changeOpacity() {
+  heatmap.set('opacity', heatmap.get('opacity') ? null : 1);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+  </head>
+
+  <body>
+    <div id="panel">
+      <button id = "Toggle_Heatmap" onclick="toggleHeatmap()">Toggle Heatmap</button>
+      <button id = "Change_gradient" onclick="changeGradient()">Change gradient</button>
+      <button id = "Change_radius" onclick="changeRadius()">Change radius</button>
+      <button id = "Change_opacity" onclick="changeOpacity()">Change opacity</button>
+      <p id="selectFile">Select a csv file:</p> 
+      <input type="file" id="fileInput">
+    </div>
+    <div id="map-canvas"></div>
+  </body>
+</html>
